@@ -1,0 +1,65 @@
+WHOIS Information:
+{
+  "domain_name": "YOUTUBE.COM",
+  "registrar": "MarkMonitor, Inc.",
+  "registrar_url": "http://www.markmonitor.com",
+  "reseller": null,
+  "whois_server": "whois.markmonitor.com",
+  "referral_url": null,
+  "updated_date": [
+    "2025-01-14 10:06:34",
+    "2025-01-14 10:06:34+00:00"
+  ],
+  "creation_date": [
+    "2005-02-15 05:13:12",
+    "2005-02-15 05:13:12+00:00"
+  ],
+  "expiration_date": [
+    "2026-02-15 05:13:12",
+    "2026-02-15 00:00:00+00:00"
+  ],
+  "name_servers": [
+    "NS1.GOOGLE.COM",
+    "NS2.GOOGLE.COM",
+    "NS3.GOOGLE.COM",
+    "NS4.GOOGLE.COM"
+  ],
+  "status": [
+    "clientDeleteProhibited https://icann.org/epp#clientDeleteProhibited",
+    "clientTransferProhibited https://icann.org/epp#clientTransferProhibited",
+    "clientUpdateProhibited https://icann.org/epp#clientUpdateProhibited",
+    "serverDeleteProhibited https://icann.org/epp#serverDeleteProhibited",
+    "serverTransferProhibited https://icann.org/epp#serverTransferProhibited",
+    "serverUpdateProhibited https://icann.org/epp#serverUpdateProhibited",
+    "clientUpdateProhibited (https://www.icann.org/epp#clientUpdateProhibited)",
+    "clientTransferProhibited (https://www.icann.org/epp#clientTransferProhibited)",
+    "clientDeleteProhibited (https://www.icann.org/epp#clientDeleteProhibited)",
+    "serverUpdateProhibited (https://www.icann.org/epp#serverUpdateProhibited)",
+    "serverTransferProhibited (https://www.icann.org/epp#serverTransferProhibited)",
+    "serverDeleteProhibited (https://www.icann.org/epp#serverDeleteProhibited)"
+  ],
+  "emails": [
+    "abusecomplaints@markmonitor.com",
+    "whoisrequest@markmonitor.com"
+  ],
+  "dnssec": "unsigned",
+  "name": null,
+  "org": "Google LLC",
+  "address": null,
+  "city": null,
+  "state": null,
+  "registrant_postal_code": null,
+  "country": "US"
+}
+
+DNS Records:
+A: 142.250.193.46
+MX: 0 smtp.google.com.
+NS: ns4.google.com.
+NS: ns1.google.com.
+NS: ns2.google.com.
+NS: ns3.google.com.
+
+<h2>Vulnerability Scan Report for youtube.com</h2><p>Error: 'nmap program was not found in path. PATH is : C:\\Program Files (x86)\\VMware\\VMware Workstation\\bin\\;C:\\Program Files\\Common Files\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\MinGW\\bin;C:\\Program Files\\nodejs\\;D:\\Git\\cmd;C:\\Users\\unique\\AppData\\Local\\Programs\\Python\\Python310\\Scripts\\;C:\\Users\\unique\\AppData\\Local\\Programs\\Python\\Python310\\;C:\\Users\\unique\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\;C:\\Users\\unique\\AppData\\Local\\Programs\\Python\\Python313\\;C:\\Users\\unique\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\unique\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\unique\\AppData\\Roaming\\npm;C:\\Program Files\\nodejs;C:\\Program Files\\JetBrains\\IntelliJ IDEA 2024.3.1.1\\bin;;C:\\Users\\unique\\Downloads\\IntelliJ IDEA Community Edition 2020.1.4\\bin;;C:\\Users\\unique\\AppData\\Local\\GitHubDesktop\\bin;;c:\\Users\\unique\\.vscode\\extensions\\ms-python.debugpy-2025.10.0-win32-x64\\bundled\\scripts\\noConfigScripts'</p>
+
+<h2>Enumeration Report for youtube.com</h2><p>IP Address: 142.250.193.46</p>

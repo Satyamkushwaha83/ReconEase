@@ -1,0 +1,196 @@
+<!-- <!DOCTYPE html>
+<html>
+<head>
+    <title>ReconEase Dashboard</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 20px; background: #f9f9f9; }
+        .container { background: white; padding: 20px; border-radius: 8px; box-shadow: 0 2px 6px rgba(0,0,0,0.1); }
+        input { padding: 8px; width: 300px; border: 1px solid #ccc; border-radius: 5px; }
+        button { padding: 8px 16px; margin-left: 10px; background: #007BFF; color: white; border: none; border-radius: 5px; }
+        button:hover { background: #0056b3; cursor: pointer; }
+        .downloads { margin-top: 15px; }
+        .downloads a { margin-right: 10px; text-decoration: none; color: #007BFF; }
+        pre { background: #eee; padding: 10px; border-radius: 5px; white-space: pre-wrap; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>ReconEase Dashboard</h2>
+        <form method="POST">
+            <input type="text" name="domain" placeholder="Enter domain (example.com)" required>
+            <button type="submit">Scan</button>
+        </form>
+
+        {% if domain %}
+            <h3>Results for: {{ domain }}</h3>
+
+            <h4>OSINT Results</h4>
+            <pre>{{ results.get("osint", "No data") }}</pre>
+
+            <h4>Vulnerability Scan</h4>
+            <pre>{{ results.get("vuln", "No data") }}</pre>
+
+            <h4>Enumeration</h4>
+            <pre>{{ results.get("enum", "No data") }}</pre>
+
+            <div class="downloads">
+                <strong>Download Report:</strong>
+                <a href="/download/txt">TXT</a>
+                <a href="/download/html">HTML</a>
+            </div>
+        {% endif %}
+    </div>
+</body>
+</html> -->
+
+
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>ReconEase Dashboard</title>
+    <style>
+        /* Body & Fonts */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            background: #f4f6f8;
+        }
+
+        /* Header / Navbar */
+        header {
+            background-color: #007BFF;
+            color: white;
+            padding: 15px 20px;
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+
+        header img {
+            height: 40px;
+            width: 40px;
+        }
+
+        header h1 {
+            font-size: 24px;
+            margin: 0;
+        }
+
+        /* Container */
+        .container {
+            max-width: 900px;
+            margin: 30px auto;
+            background: white;
+            padding: 25px 30px;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+        }
+
+        /* Form */
+        input[type="text"] {
+            padding: 12px;
+            width: 70%;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            font-size: 16px;
+        }
+
+        button {
+            padding: 12px 25px;
+            margin-left: 10px;
+            background: #007BFF;
+            color: white;
+            border: none;
+            border-radius: 8px;
+            font-size: 16px;
+            transition: 0.3s;
+        }
+
+        button:hover {
+            background: #0056b3;
+            cursor: pointer;
+        }
+
+        /* Results */
+        h3, h4 {
+            margin-top: 25px;
+            color: #333;
+        }
+
+        pre {
+            background: #f0f2f5;
+            padding: 15px;
+            border-radius: 8px;
+            white-space: pre-wrap;
+            overflow-x: auto;
+        }
+
+        /* Downloads */
+        .downloads {
+            margin-top: 20px;
+        }
+
+        .downloads a {
+            margin-right: 15px;
+            text-decoration: none;
+            color: #007BFF;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+
+        .downloads a:hover {
+            color: #0056b3;
+        }
+
+        /* Footer */
+        footer {
+            text-align: center;
+            padding: 15px 0;
+            color: #777;
+            margin-top: 40px;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <img src="/static/logo.png" alt="ReconEase Logo">
+        <h1>ReconEase Dashboard</h1>
+    </header>
+
+    <div class="container">
+        <form method="POST">
+            <input type="text" name="domain" placeholder="Enter domain (example.com)" required>
+            <button type="submit">Scan</button>
+        </form>
+
+        {% if domain %}
+            <h3>Results for: {{ domain }}</h3>
+
+            <h4>OSINT Results</h4>
+            <pre>{{ results.get("osint", "No data") }}</pre>
+
+            <h4>Vulnerability Scan</h4>
+            <pre>{{ results.get("vuln", "No data") }}</pre>
+
+            <h4>Enumeration</h4>
+            <pre>{{ results.get("enum", "No data") }}</pre>
+
+            <div class="downloads">
+                <strong>Download Report:</strong>
+                <a href="/download/txt">TXT</a>
+                <a href="/download/html">HTML</a>
+            </div>
+        {% endif %}
+    </div>
+
+    <footer>
+        &copy; 2025 ReconEase | Ethical Hacking Tool
+    </footer>
+
+</body>
+</html>

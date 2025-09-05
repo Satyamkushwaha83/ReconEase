@@ -1,0 +1,6 @@
+theHarvester
+python-whois
+dnspython
+python-nmap
+requests
+flask
