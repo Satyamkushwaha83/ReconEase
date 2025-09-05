@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # ReconEase 🕵️‍♂️
 
 # ReconEase is an all-in-one Python-based ethical hacking tool for:
@@ -105,3 +106,7 @@ Download options available: TXT / HTML
 
 
 
+=======
+# ReconEase
+ReconEase is a lightweight reconnaissance tool for security researchers and pentesters. It offers OSINT (WHOIS, DNS, subdomains, emails), vulnerability scanning, and enumeration. Supports both CLI and interactive dashboard with exportable TXT/HTML reports.
+>>>>>>> ce34bf05dd8213f57665c021c1fd2b9129b6ce9b
